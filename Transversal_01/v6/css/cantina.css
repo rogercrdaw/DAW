@@ -1,0 +1,288 @@
+    html,
+    body {
+        margin: 0px auto;
+        /*height: 100%;
+    width: 100%;*/
+        background-image: url('../img/ejemplo_5.jpg');
+        background-size: cover;
+        background-attachment: fixed;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 18px
+    }
+    
+    .contingut {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .contenidor {
+        display: flex;
+        flex-direction: row;
+        height: auto;
+        align-items: center;
+        text-align: center;
+        margin: 10px 10px;
+    }
+    /* HEADER styles */
+    
+    header {
+        right: 10px;
+        left: 10px;
+        margin: 10px;
+    }
+    
+    header ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    
+    .nav-bar-title {
+        float: left;
+    }
+    
+    .nav-bar-icon {
+        float: right;
+    }
+    
+    header li {
+        float: left;
+    }
+    
+    header li a {
+        display: block;
+        color: coral;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    header li a:hover {
+        color: royalblue;
+    }
+    /* MAIN styles */
+    
+    main {
+        margin: auto;
+        position: absolute;
+        width: 100%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+    /* ONEPAGE contents */
+    
+    .one-page {
+        text-align: center;
+    }
+    
+    .title {
+        font-size: 10vw;
+        color: royalblue;
+    }
+    
+    .info {
+        font-size: 3vw;
+        color: royalblue
+    }
+    
+    .main-buttons {
+        display: -webkit-inline-box;
+    }
+    
+    .main-buttons button {
+        padding: 20px;
+        margin: 15px;
+        min-width: 200px;
+        border-radius: 5px;
+        border: 2px solid coral;
+        background-color: transparent;
+        color: coral;
+        font-size: 1.2em;
+    }
+    
+    .main-buttons button:hover {
+        border-radius: 5px;
+        border: 2px solid coral;
+        background-color: coral;
+        color: white;
+    }
+    /* TWO COLUMNS content */
+    
+    .content_left {
+        background-color: rgba(250, 250, 250, 0.5);
+        border: 2px solid coral;
+        border-radius: 10px;
+        width: 70%;
+        margin-right: 5px;
+        align-self: stretch;
+    }
+    
+    .content_right {
+        background-color: rgba(250, 250, 250, 0.5);
+        border: 2px solid coral;
+        border-radius: 10px;
+        width: 30%;
+        margin-left: 5px;
+        text-align: right;
+        padding: 10px;
+        align-self: stretch;
+    }
+    
+    .menu_button {
+        width: 150px;
+        height: 150px;
+        text-align: right;
+        border-radius: 8px;
+        margin: auto;
+        background-size: cover;
+        background-position: center;
+        font-size: 1.1em;
+        color: royalblue;
+        font-weight: bold;
+        background-blend-mode: luminosity;
+    }
+    
+    .menu_button:hover {
+        background-blend-mode: unset;
+        transform: scale(1.1, 1.1);
+    }
+    
+    footer {
+        position: absolute;
+        width: -moz-available;
+        width: -webkit-fill-available;
+        bottom: 10px;
+        padding: 0 10px 0 10px;
+        margin: 10px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .footer-left {
+        width: 50%;
+        text-align: left;
+    }
+    
+    .footer-left ul {
+        list-style-type: none;
+    }
+    
+    .footer-left li {
+        float: left;
+    }
+    
+    .footer-left li a {
+        display: block;
+        color: coral;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .footer-left li a:hover {
+        color: royalblue;
+    }
+    
+    .footer-right {
+        width: 50%;
+        text-align: right;
+    }
+    
+    .footer-right ul {
+        list-style-type: none;
+        font-size: 1.2em;
+    }
+    
+    .footer-right li {
+        float: right;
+    }
+    
+    .footer-right li a {
+        display: block;
+        color: coral;
+        text-decoration: none;
+        padding: 10px;
+    }
+    
+    .footer-right li a:hover {
+        color: royalblue;
+    }
+    
+    .input {
+        width: 100%;
+    }
+    
+    .button-blue {
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 2px solid royalblue;
+        background-color: transparent;
+        color: royalblue;
+        font-size: 1.1em;
+    }
+    
+    .button-blue:hover {
+        color: white;
+        border-radius: 5px;
+        border: 2px solid royalblue;
+        background-color: royalblue;
+    }
+    
+    .button-orange {
+        margin: 5px 0;
+        padding: 10px;
+        width: 100%;
+        border-radius: 5px;
+        border: 2px solid coral;
+        background-color: transparent;
+        color: coral;
+        font-size: 1.1em;
+    }
+    
+    .button-orange:hover {
+        color: white;
+        border-radius: 5px;
+        border: 2px solid coral;
+        background-color: coral;
+    }
+    
+    .tablaCesta {
+        width: 100%;
+        text-align: right;
+        color: royalblue;
+    }
+    
+    .totalCesta {
+        color: coral;
+        font-size: 1.2em;
+        padding-right: 10px;
+    }
+    /*
+    @media screen and (min-width: 1440px) {
+        footer {
+            position: relative;
+        }
+    }
+    
+    @media screen and (min-width: 1265px) {
+        footer {
+            position: relative;
+        }
+    }
+    */
+    
+    .formulario {
+        color: royalblue;
+        text-align: left;
+        width: 80%;
+        padding-left: 50px;
+    }
+    
+    .form-input {
+        width: -moz-available;
+        width: -webkit-fill-available;
+        ;
+    }

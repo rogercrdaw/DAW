@@ -1,0 +1,7 @@
+ErrorDocument 401 default
+<FilesMatch "admin.php">
+AuthName "grup4"
+AuthType Basic
+AuthUserFile /home/a18oscortsol/public_html/admin/.htpasswd
+require valid-user
+</FilesMatch>
